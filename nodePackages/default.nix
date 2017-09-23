@@ -921,6 +921,8 @@
     chownr = callPackage ./chownr/1.0.1.nix {};
     chownr_1-0-1 = callPackage ./chownr/1.0.1.nix {};
     chownr_0-0-2 = callPackage ./chownr/0.0.2.nix {};
+    chrome-remote-interface = callPackage ./chrome-remote-interface/0.25.0.nix {};
+    chrome-remote-interface_0-25-0 = callPackage ./chrome-remote-interface/0.25.0.nix {};
     ci-info = callPackage ./ci-info/1.0.0.nix {};
     ci-info_1-0-0 = callPackage ./ci-info/1.0.0.nix {};
     cipher-base = callPackage ./cipher-base/1.0.2.nix {};
@@ -4984,8 +4986,8 @@
     readable-stream_2-0-6 = callPackage ./readable-stream/2.0.6.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
+    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -5932,7 +5934,8 @@
     uid2 = callPackage ./uid2/0.0.3.nix {};
     uid2_0-0-3 = callPackage ./uid2/0.0.3.nix {};
     uid2_0-0-2 = callPackage ./uid2/0.0.2.nix {};
-    ultron = callPackage ./ultron/1.0.2.nix {};
+    ultron = callPackage ./ultron/1.1.0.nix {};
+    ultron_1-1-0 = callPackage ./ultron/1.1.0.nix {};
     ultron_1-0-2 = callPackage ./ultron/1.0.2.nix {};
     umask = callPackage ./umask/1.1.0.nix {};
     umask_1-1-0 = callPackage ./umask/1.1.0.nix {};
@@ -6261,7 +6264,8 @@
     write-json_0-2-2 = callPackage ./write-json/0.2.2.nix {};
     write-yaml = callPackage ./write-yaml/0.2.2.nix {};
     write-yaml_0-2-2 = callPackage ./write-yaml/0.2.2.nix {};
-    ws = callPackage ./ws/1.1.1.nix {};
+    ws = callPackage ./ws/2.0.3.nix {};
+    ws_2-0-3 = callPackage ./ws/2.0.3.nix {};
     ws_1-1-1 = callPackage ./ws/1.1.1.nix {};
     ws_1-0-1 = callPackage ./ws/1.0.1.nix {};
     ws_0-8-0 = callPackage ./ws/0.8.0.nix {};
@@ -6344,8 +6348,8 @@
     yargs_1-3-3 = callPackage ./yargs/1.3.3.nix {};
     yargs-parser = callPackage ./yargs-parser/5.0.0.nix {};
     yargs-parser_5-0-0 = callPackage ./yargs-parser/5.0.0.nix {};
-    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
+    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_2-4-1 = callPackage ./yargs-parser/2.4.1.nix {};
     yarn = callPackage ./yarn/0.28.1.nix {};
     yarn_0-28-1 = callPackage ./yarn/0.28.1.nix {};
